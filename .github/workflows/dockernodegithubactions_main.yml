@@ -1,6 +1,8 @@
 name: Build and Push Docker image to Docker Hub
 
-on: push
+on: 
+  push:
+    branches: ['master']
 env:
   REGISTRY: ghcr.io
 jobs:
