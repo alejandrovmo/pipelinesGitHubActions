@@ -2,7 +2,7 @@ name: Build and Push Docker image to Docker Hub
 
 on: 
   push:
-    branches: ['master']
+    branches: ['main']
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
