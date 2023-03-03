@@ -5,6 +5,7 @@ on:
     branches: ['master']
 env:
   REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
 jobs:
   push_to_registry:
     name: Push Docker image to Docker Hub
