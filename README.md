@@ -52,8 +52,7 @@ Step#4 - Github Actions workflow push Docker image to DockerHub using Github Act
  - Go to Actions, after the repo creation and choose star a workflow for yourself.
  - Inside Edit new file, choose a name for the new yaml file, and insert the next lines of code:
 		
-      name: Build and Push Docker image to Docker Hub
-		
+      			name: Build and Push Docker image to Docker Hub
 			on: 
 			  push:
 			     branches: 
