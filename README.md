@@ -1,4 +1,4 @@
-# pipelinesGitHubActions
+# Pipelines with GitHub Actions
 Pipelines with GitHub Actions
 
 
