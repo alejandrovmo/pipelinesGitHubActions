@@ -4,6 +4,7 @@ Pipelines with GitHub Actions
 
 STEP#1 - Create Docker file for Node.js app
 1. We create a docker file like this (This is an example):
+
 	FROM node:14
 	WORKDIR /usr/src/app
 	COPY package.json .
