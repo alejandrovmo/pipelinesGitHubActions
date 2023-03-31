@@ -10,9 +10,13 @@ STEP#1 - Create Docker file for Node.js app
 	WORKDIR /usr/src/app
 	
 	COPY package.json .
+	
 	RUN npm install
+	
 	COPY . .
+	
 	EXPOSE 3000
+	
 	CMD ["node", "index.js"]
 
 STEP#2 - Create a package.json file:
