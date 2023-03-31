@@ -22,23 +22,24 @@ STEP#1 - Create Docker file for Node.js app
 STEP#2 - Create a package.json file:
 
 1. package.json
-{
-    "name":
-    "docker_nodejs_demo",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "dependencies": {
-        "config": "3.3.9",
-        "express": "4.18.2"
-    }
-}
+
+	{
+    		"name":
+    		"docker_nodejs_demo",
+    		"version": "1.0.0",
+    		"description": "",
+    		"main": "index.js",
+    		"scripts": {
+        		"test": "echo \"Error: no test specified\" && exit 1"
+    		},
+    		"keywords": [],
+    		"author": "",
+    		"license": "ISC",
+    		"dependencies": {
+        		"config": "3.3.9",
+        		"express": "4.18.2"
+    			}
+	}
 
 STEP#3 - Create a repo en Docker Hub, and the repo secrets on GitHub for connecting GitHub, DockerHub and AWS:
 
